@@ -1,4 +1,4 @@
-package Duck;
+package MiniDuckSimulator;
 
 public class MallardDuck extends Duck {
     public MallardDuck() {

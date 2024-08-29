@@ -1,4 +1,4 @@
-package Duck;
+package MiniDuckSimulator;
 
 public class MuteQuack implements QuackBehavior {
     public void quack() {

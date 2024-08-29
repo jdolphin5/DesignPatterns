@@ -1,4 +1,4 @@
-package Duck;
+package MiniDuckSimulator;
 
 public abstract class Duck {
     FlyBehavior flyBehavior;

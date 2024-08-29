@@ -1,4 +1,4 @@
-package Duck;
+package MiniDuckSimulator;
 
 public class FlyWithWings implements FlyBehavior {
     public void fly() {
