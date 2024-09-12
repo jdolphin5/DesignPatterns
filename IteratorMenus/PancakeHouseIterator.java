@@ -2,7 +2,7 @@ package IteratorMenus;
 
 import java.util.*;
 
-public class PancakeHouseIterator implements Iterator {
+public class PancakeHouseIterator implements Iterator<MenuItem> {
     ArrayList<MenuItem> items;
     int position = 0;
 
@@ -22,5 +22,9 @@ public class PancakeHouseIterator implements Iterator {
         } else {
             return true;
         }
+    }
+
+    public void remove() {
+        throw new UnsupportedOperationException("You shouldn't be trying to remove menu items.");
     }
 }

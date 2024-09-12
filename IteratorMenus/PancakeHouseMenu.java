@@ -2,7 +2,7 @@ package IteratorMenus;
 
 import java.util.*;
 
-public class PancakeHouseMenu {
+public class PancakeHouseMenu implements Menu {
     ArrayList<MenuItem> menuItems;
 
     public PancakeHouseMenu() {
@@ -23,7 +23,7 @@ public class PancakeHouseMenu {
     }
     // other menu methods here
 
-    public Iterator createIterator() {
+    public Iterator<MenuItem> createIterator() {
         return new PancakeHouseIterator(menuItems);
     }
 }
